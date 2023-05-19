@@ -1,0 +1,54 @@
+body {
+    background: lightblue;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+}
+
+.grid-item {
+    background-color: white;
+    border: 1px solid black;
+    padding: 20px;
+    font-size: 20px;
+    text-align: justify;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-style: solid;
+    border-radius: 3%;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h3 {
+    border-style: solid;
+    border-color: brown yellowgreen darkolivegreen darkmagenta;
+    padding: 100px 50px 10px 50px;
+    margin: 100px;
+    text-align: center;
+}
+
+h4 {
+    text-align: center;
+}
+
+
+
+a {
+    font-size: larger;
+}
+
+ul {
+    color: red;
+}
+
+ol {
+    color: green;
+}
